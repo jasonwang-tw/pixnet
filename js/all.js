@@ -19,7 +19,7 @@ xhr.onload = function () {
     for(var f=0;f<strLen;f++){
         var strThumb = str.elements[f].thumb;
         var strLarge = str.elements[f].identifier;
-        var wrap = document.querySelector('.content-wrap');
+        var wrap = document.querySelector('.imgList');
         var content = '<a data-fancybox="gallery" href="https://pic.pimg.tw/jiney/' + strLarge + '_b.jpg"><img src="' + strThumb + '"></a>'
         wrapIn += content;
     }

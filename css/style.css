@@ -1,0 +1,32 @@
+img,img:hover{
+    transition-duration: 0.3s;
+}
+body{
+    margin: 0;
+}
+p{
+    font-family: 微軟正黑體;
+    line-height: 26px;
+    color: #00000091;
+    font-size: 14px;
+}
+h2{
+    font-family: 微軟正黑體;
+    color: white;
+    max-width: 1020px;
+    margin: 0 auto;
+}
+.title{
+    padding: 20px;
+    background-color: #1e4bb9;
+}
+.content-wrap {
+    max-width: 1020px;
+    margin: 0 auto 0;
+    background-color: #e4edfc;
+    padding: 50px;
+    border-radius: 0 0 20px 20px;
+}
+.content-wrap a:hover img{
+    transform: scale(1.2);
+}
